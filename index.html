@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Chow Hall | American Restaurant & Casual Dining | Knoxville, TN</title>
+    <meta name="description" content="The Chow Hall serves classic American casual dining favorites in Knoxville, TN. Top-rated burgers, crispy tenders, and loaded nachos. Call (865) 985-2893." />
+    <meta name="theme-color" content="#18181b" />
+    <meta property="og:title" content="The Chow Hall | American Restaurant & Casual Dining | Knoxville, TN" />
+    <meta property="og:description" content="The Chow Hall serves classic American casual dining favorites in Knoxville, TN. Top-rated burgers, crispy tenders, and loaded nachos. Call (865) 985-2893." />
+    <meta property="og:type" content="restaurant" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="The Chow Hall | Knoxville, TN" />
+    <meta name="twitter:description" content="American casual dining restaurant in Knoxville, TN. Highly rated with 4.9 stars across ~570 Google reviews." />
+
+    <!-- Google Fonts for warm, premium American restaurant typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
+
+    <!-- Schema.org Restaurant Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Restaurant",
+      "name": "The Chow Hall",
+      "image": "https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&w=1200&q=80",
+      "telephone": "(865) 985-2893",
+      "servesCuisine": "American",
+      "priceRange": "$",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "5706 E Emory Rd #5704",
+        "addressLocality": "Knoxville",
+        "addressRegion": "TN",
+        "postalCode": "37938",
+        "addressCountry": "US"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 36.0882,
+        "longitude": -83.9126
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+          "opens": "11:00",
+          "closes": "20:00"
+        }
+      ],
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "570",
+        "bestRating": "5"
+      }
+    }
+    </script>
+  </head>
+  <body class="bg-zinc-950 text-zinc-100 antialiased selection:bg-amber-500 selection:text-black">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+

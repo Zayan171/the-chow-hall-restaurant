@@ -1,0 +1,6 @@
+{
+  "name": "The Chow Hall | American Restaurant in Knoxville, TN",
+  "description": "The Chow Hall serves classic American casual dining favorites in Knoxville, TN. Top-rated burgers, crispy tenders, and loaded nachos. Call (865) 985-2893.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
